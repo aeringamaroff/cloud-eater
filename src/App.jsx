@@ -1,13 +1,16 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Note from "./components/Note";
 
 function App() {
   return (
     <>
       <Header />
-      <div>body</div>
 
-      <footer>c2025</footer>
+      <Note />
+
+      <Footer />
     </>
   );
 }
